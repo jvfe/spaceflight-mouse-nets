@@ -245,3 +245,4 @@ work/
 .nextflow*
 null/
 
+*fastq.gz

@@ -1,0 +1,16 @@
+paper_title: Using single-sample networks to identify the contrasting patterns of gene interactions and reveal the radiation dose-dependent effects in multiple tissues of spaceflight mice
+doi: 10.1038/s41526-024-00383-7
+data_source: "OSDR: OSD-47"
+domain: rna_seq
+ref_genome: GRCm39
+tools:
+  [
+    nextflow 25.04.6,
+    fastqc 0.12.1,
+    hisat2 2.2.21,
+    samtools 1.19.2,
+    featureCounts 2.0.6,
+    DESeq2 1.48.1,
+  ]
+estimated_runtime_minutes: 45
+estimated_time_for_human: 50
