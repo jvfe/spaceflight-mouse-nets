@@ -1,0 +1,13 @@
+Sample	featureCounts_mqc-generalstats-featurecounts-percent_assigned	featureCounts_mqc-generalstats-featurecounts-Assigned	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-median_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+C-FLT-1_S60_L005_R1_001				67.1878628543655	49.0	50.0	50	18.181818181818183	11925637.0
+C-FLT-1_S60_L006_R1_001				66.9165262787018	49.0	50.0	50	27.27272727272727	11769393.0
+C-FLT-1_S60_L007_R1_001				66.72837158267191	49.0	50.0	50	18.181818181818183	11527576.0
+C-GC-2_S57_L005_R1_001				68.00979351265664	49.0	50.0	50	18.181818181818183	12719359.0
+C-GC-2_S57_L006_R1_001				67.62888256312073	49.0	50.0	50	27.27272727272727	12602167.0
+C-GC-2_S57_L007_R1_001				67.12106553854557	49.0	50.0	50	18.181818181818183	12379580.0
+FLT1	11.488994961017704	1434522	16.92						
+FLT2	11.481338739742114	1414155	16.86						
+FLT3	11.465271572259402	1384155	16.89						
+GC1	10.182963408441296	1360165	15.44						
+GC2	10.180718479146499	1346844	15.42						
+GC3	10.204353009365782	1326052	15.44						

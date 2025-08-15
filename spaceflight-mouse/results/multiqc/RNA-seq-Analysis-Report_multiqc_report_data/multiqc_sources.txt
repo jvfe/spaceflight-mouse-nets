@@ -1,0 +1,19 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	GC1	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/GC1.featureCounts.txt.summary
+featureCounts	all_sections	GC3	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/GC3.featureCounts.txt.summary
+featureCounts	all_sections	FLT1	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/FLT1.featureCounts.txt.summary
+featureCounts	all_sections	FLT3	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/FLT3.featureCounts.txt.summary
+featureCounts	all_sections	GC2	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/GC2.featureCounts.txt.summary
+featureCounts	all_sections	FLT2	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/FLT2.featureCounts.txt.summary
+Bowtie 2 / HiSAT2	all_sections	FLT3	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/FLT3.hisat2.summary.log
+Bowtie 2 / HiSAT2	all_sections	GC1	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/GC1.hisat2.summary.log
+Bowtie 2 / HiSAT2	all_sections	GC3	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/GC3.hisat2.summary.log
+Bowtie 2 / HiSAT2	all_sections	FLT1	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/FLT1.hisat2.summary.log
+Bowtie 2 / HiSAT2	all_sections	GC2	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/GC2.hisat2.summary.log
+Bowtie 2 / HiSAT2	all_sections	FLT2	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/FLT2.hisat2.summary.log
+FastQC	all_sections	C-FLT-1_S60_L006_R1_001	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/C-FLT-1_S60_L006_R1_001_fastqc.zip
+FastQC	all_sections	C-GC-2_S57_L006_R1_001	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/C-GC-2_S57_L006_R1_001_fastqc.zip
+FastQC	all_sections	C-FLT-1_S60_L007_R1_001	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/C-FLT-1_S60_L007_R1_001_fastqc.zip
+FastQC	all_sections	C-GC-2_S57_L007_R1_001	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/C-GC-2_S57_L007_R1_001_fastqc.zip
+FastQC	all_sections	C-GC-2_S57_L005_R1_001	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/C-GC-2_S57_L005_R1_001_fastqc.zip
+FastQC	all_sections	C-FLT-1_S60_L005_R1_001	/storages/acari/joaovitor.cavalcante/spaceflight-mouse-nets/spaceflight-mouse/work/b7/c9aa5e2da9f59e2dd20dcf27f27949/C-FLT-1_S60_L005_R1_001_fastqc.zip
