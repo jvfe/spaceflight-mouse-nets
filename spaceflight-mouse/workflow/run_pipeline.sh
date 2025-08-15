@@ -2,10 +2,10 @@
 set -e
 
 # Run the pipeline with adjusted paths
-nextflow run jvfe/simplernaseq \
+nextflow run workflow/simplernaseq \
     --input data/samplesheet.csv \
-    --fasta data/references/Mus_musculus.GRCm39.dna.chromosome.19.fa \
-    --gtf data/references/Mus_musculus.GRCm39.112.chr19.gtf \
+    --fasta data/references/Mus_musculus.GRCm39.dna.chrs_17-19.fa \
+    --gtf data/references/Mus_musculus.GRCm39.112.chrs_17-19.gtf \
     --outdir results \
-    -profile docker,small_genome \
+    -profile docker,large_genome \
     -resume

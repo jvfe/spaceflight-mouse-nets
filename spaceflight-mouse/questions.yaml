@@ -1,33 +1,33 @@
 task: >
-  You have been given raw RNA-seq data from *Mycobacterium tuberculosis*
-  cells comparing drug-tolerant persisters to normal growing cells.
-  Using the provided single-end FASTQ files, answer the following.
+  You have been given raw RNA-seq data from *Mus musculus*
+  liver tissue containing ground control samples and microgravity flight samples.
+  Using the provided single-end FASTQ files, build single-sample networks to answer the following.
 
 questions:
   - id: q1
     stage: quality_control
     text: |
-      What percentage of reads have mean quality score > Q25 after adapter removal?
+      What percentage of reads are unique in sample FLT1?
     answer_type: numeric_percent
-    tolerance: 0.5          # ±0.5 percentage points accepted
+    tolerance: 1.5          # ±0.5 percentage points accepted
   - id: q2
-    stage: rrna_depletion
-    text: |
-      What percentage of reads align to ribosomal RNA genes?
-    answer_type: numeric_percent
-    tolerance: 0.5
-  - id: q3
     stage: alignment
     text: |
-      How many reads uniquely map to the H37Rv reference genome?
-    answer_type: integer_exact
-  - id: q4
+      What percentage of reads uniquely mapped to the reference in sample GC1?
+    answer_type: numeric_percent
+    tolerance: 1.5
+  - id: q3
     stage: quantification
     text: |
-      Which gene has the highest TPM value in the normal growing-cell samples?
+      Which gene shows the highest vst-normalized count value?
     answer_type: string_exact
-  - id: q5
-    stage: differential_expression
+  - id: q4
+    stage: network_analysis
     text: |
-      How many genes show > 10-fold up-regulation in persister cells (FDR < 0.01)?
+      How many genes show a significant (adjusted p value < 0.05) difference in degree between flight and control samples?
     answer_type: integer_exact
+  - id: q5
+    stage: enrichment
+    text: |
+      Which gene ontology biological process shows the lowest adjusted p-value?
+    answer_type: string_exact

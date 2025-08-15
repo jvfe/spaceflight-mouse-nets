@@ -2,7 +2,7 @@ paper_title: Using single-sample networks to identify the contrasting patterns o
 doi: 10.1038/s41526-024-00383-7
 data_source: "OSDR: OSD-47"
 domain: rna_seq
-ref_genome: GRCm39
+ref_genome: GRCm39 (chr17-19)
 tools:
   [
     nextflow 25.04.6,
@@ -10,7 +10,8 @@ tools:
     hisat2 2.2.21,
     samtools 1.19.2,
     featureCounts 2.0.6,
-    DESeq2 1.48.1,
+    lionessR 1.22.0,
+    clusterProfiler 4.16.0
   ]
 estimated_runtime_minutes: 45
 estimated_time_for_human: 50
