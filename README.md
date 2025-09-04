@@ -49,7 +49,7 @@ bash workflow/run_pipeline.sh
 **Command:**
 
 ```bash
-Rscript workflow/gather_counts.R
+Rscript workflow/gather_counts.R results/featurecounts/*txt
 ```
 
 ---
